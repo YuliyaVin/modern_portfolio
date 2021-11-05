@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "Responsive portfolio website",
   "main": "index.js",
+  "homepage": "https://YuliyaVin.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist",
     "sass1": "echo \"Hello from sass1 script\""
   },
   "author": "Yul",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1"
   }
 }
+
+ 
